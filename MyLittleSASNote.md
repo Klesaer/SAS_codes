@@ -298,9 +298,9 @@ Identify matching and no matching by using the `IN=` option.
 ### 1.2.2.5 Data Step: Functions
 There are some functions to manipulate data in SAS:
 
-> `new-var = function(arg1, arg2,...);`  /* general format. */
-> `char-var = put(number-var, format);`  /* Convert number to char. */
-> `Num-var = input(char-var, informat);`  /* Convert Char to Number. */
+`new-var = function(arg1, arg2,...);`  **General format.**
+`char-var = put(number-var, format);`  **Convert number to char.**
+`Num-var = input(char-var, informat);`  **Convert Char to Number.**
 
 There are common Numeric functions like:
 

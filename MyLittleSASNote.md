@@ -73,7 +73,7 @@ Type: number(sas date), char
 Length: Num 8 bytes, char 1-3xxxx.
 
 #### 1.1.4.2 unstructured Data: PROC IMPORT
-Unstructured Data has no columns like csv, json files. They must be ==import==.
+Unstructured Data has no columns like csv, json files. They must be **import**.
 Access it with `proc import` to define the rules.
 Eg:
 ```{.line-numbers}
@@ -174,7 +174,7 @@ PROC SORT data=input-data out=output-table nodupkey dupout=output-table;
     by descending col-name1 col-name2; /*by _ALL_; */
 Run;
 ```
-``PROC SORT`` is required with a ==BY statement==.
+``PROC SORT`` is required with a **BY statement**.
 ``NODUPKEY``: keeps only the first row for each unique value.
 ``DUPOUT``: creates an output table containing duplicates.
 
@@ -267,7 +267,7 @@ or variations like `DO WHILE|UNTIL expression;` instead of `DO`.
 - WHILE: check top.
 - UNTIL: check bottom.
 
-### 1.2.2.4 Data Step: ==Combining Data.==
+### 1.2.2.4 Data Step: **Combining Data.**
 
 Tables: concatenating, matching based on variable.
 

@@ -22,3 +22,5 @@ proc freq data=testset order=freq noprint;
     tables MSRP / out=testset_count;
 /*    format MSRP monname.;*/
 run;
+
+/* 11 - Test the rules */
